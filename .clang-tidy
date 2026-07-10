@@ -10,7 +10,7 @@
 # can be found at https://github.com/llvm/llvm-project/issues/69369.
 # When that happens, we can disable it on the problematic code by NOLINT.
 
-InheritParentConfig: t
+InheritParentConfig: true
 Checks: '
 bugprone-*,
 -bugprone-easily-swappable-parameters,
